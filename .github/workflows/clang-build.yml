@@ -1,4 +1,4 @@
-name: RastaMod69-Clang
+name: Teletubies-Clang
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ on:
 
 jobs:
   build:
-    name: RastaMod69-Clang by ${{ github.actor }}
+    name: Teletubies-Clang by ${{ github.actor }}
     runs-on: ubuntu-22.04
     if: github.event.repository.owner.id == github.event.sender.id
     env:
